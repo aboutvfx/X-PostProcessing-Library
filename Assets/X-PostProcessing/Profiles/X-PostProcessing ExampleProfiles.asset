@@ -19,6 +19,10 @@ MonoBehaviour:
   - {fileID: 114365642992012064}
   - {fileID: 114881628477261990}
   - {fileID: 114186190907686168}
+  - {fileID: 114964623377917018}
+  - {fileID: 114789630020481822}
+  - {fileID: 114320506431503834}
+  - {fileID: 114760233488171950}
 --- !u!114 &114186190907686168
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -46,6 +50,45 @@ MonoBehaviour:
   backgroundColor:
     overrideState: 1
     value: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &114320506431503834
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b63d2b442ad53ae42b8343f3a6602000, type: 3}
+  m_Name: GlitchDigitalStripe
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  intensity:
+    overrideState: 1
+    value: 0.165
+  frequncy:
+    overrideState: 1
+    value: 2
+  stripeLength:
+    overrideState: 1
+    value: 0.99
+  noiseTextureWidth:
+    overrideState: 1
+    value: 20
+  noiseTextureHeight:
+    overrideState: 1
+    value: 20
+  needStripColorAdjust:
+    overrideState: 1
+    value: 0
+  StripColorAdjustColor:
+    overrideState: 1
+    value: {r: 0.1, g: 0.1, b: 0.1, a: 1}
+  StripColorAdjustIndensity:
+    overrideState: 1
+    value: 2
 --- !u!114 &114365642992012064
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -57,7 +100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6fc311bab7f3714daba3e248900eb31, type: 3}
   m_Name: TiltShiftBlurV2
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   enabled:
     overrideState: 1
     value: 1
@@ -127,6 +170,48 @@ MonoBehaviour:
   RTDownScaling:
     overrideState: 1
     value: 2.66
+--- !u!114 &114760233488171950
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9acc76ac9d8d4e4a8d7294a5bd00c85, type: 3}
+  m_Name: GlitchImageBlockV3
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  Speed:
+    overrideState: 0
+    value: 10
+  BlockSize:
+    overrideState: 0
+    value: 8
+--- !u!114 &114789630020481822
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9ef3f5264488414c87b632cd2509b40, type: 3}
+  m_Name: GlitchRGBSplitV5
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  Amplitude:
+    overrideState: 1
+    value: 0.5
+  Speed:
+    overrideState: 1
+    value: 0.1
 --- !u!114 &114811271554320798
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -162,7 +247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b3bbc5404f2acf4a9963784dd2159af, type: 3}
   m_Name: IrisBlurV2
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enabled:
     overrideState: 1
     value: 1
@@ -208,3 +293,30 @@ MonoBehaviour:
   RTDownScaling:
     overrideState: 1
     value: 2
+--- !u!114 &114964623377917018
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29f414c45c95c4c4fab1fba6f7db9a44, type: 3}
+  m_Name: GlitchScanLineJitter
+  m_EditorClassIdentifier: 
+  active: 0
+  enabled:
+    overrideState: 1
+    value: 1
+  JitterDirection:
+    overrideState: 1
+    value: 0
+  intervalType:
+    overrideState: 0
+    value: 2
+  frequency:
+    overrideState: 0
+    value: 1
+  JitterIndensity:
+    overrideState: 1
+    value: 0.174
